@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FirebaseDatabase
+import FirebaseDatabaseSwift
 
 struct ContentView: View {
     @ObservedObject var collegeModel = ViewModel()
